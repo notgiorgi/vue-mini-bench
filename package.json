@@ -1,0 +1,22 @@
+{
+  "name": "vue-micro-benchmark",
+  "version": "1.0.0",
+  "main": " ",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "http-server": "^0.11.1",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "serve": "http-server",
+    "start": "yarn build && yarn serve"
+  }
+}
