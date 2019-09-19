@@ -3,7 +3,7 @@ import Vue from 'vue/dist/vue.js'
 import Component from './Component.vue'
 import { createRoots, COMPONENT_INSTANCES_N } from './config'
 
-createRoots(COMPONENT_INSTANCES_N)
+createRoots(0)
 
 new Vue({
   el: '#root',

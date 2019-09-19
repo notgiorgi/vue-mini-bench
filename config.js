@@ -1,4 +1,4 @@
-export const COMPONENT_INSTANCES_N = 50
+export const COMPONENT_INSTANCES_N = 10
 
 // HELPERS
 function appendRoot(id) {
